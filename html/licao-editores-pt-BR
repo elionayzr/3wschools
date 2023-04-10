@@ -1,0 +1,50 @@
+Aprendendo através do bloco de notas ou TextEdit
+
+Pode-se utilizar editores profissionais de HTML para criar e modificar páginas Web.
+No entanto, nós, da W3schools, recomendamos que utilize um simples editor de texto (PC) ou TextEdit
+(Mac).
+
+Acreditamos que um simples editor de texto é bom expediente para aprender HTML.
+Siga os passos abaixo para criar a sua primeira página com um editor de texto ou TextEdit.
+
+-- Passo 1: abra o bloco de notas (PC) -- 
+No Windows 8 ou versão mais recente:
+Abra o menu inicial (o símbolo da janela que está no canto ínfero-esquerdo da tela), e digite bloco de
+notas.
+
+No Windows 7 ou versão anterior, siga esse trajeto:
+Start > Programas > Acessórios > Notepad
+
+-- Passo 1: Para abrir o OpenEdit (Mac) --
+
+Abra o Finder > Applications > TextEdit
+Altere algumas preferências para permitir que a aplicação salve o arquivo corretamente. Em Prefences
+> Format > escolha “plain Text”
+Então, abaixo do “Open and Save”, marque a caixa que diz “Display HTML files as HTML code instead
+of formatted text” (Mostrar arquivos HTML como código em vez de de texto formatado).
+Então abra um novo documento para pôr o código.
+
+-- Passo 2: Escreva algum código HTML --
+
+Escreva ou copie o seguinte código no Bloco de notas:
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Meu primeiro heading</h1>
+<p>Meu peimeiro parágrafo</p>
+</body>
+</html>
+
+-- Passo 3: Salvar a página HTML --
+
+Salve o arquivo no computador. No menu arquivo, selecione a opção Salvar como...
+Nomeie o arquivo com a extensão .html no final e configure como UTF-8 o tipo de encodeamento 
+(Que é a opção mais convencional para encodear arquivo HTML)
+
+Você pode empregar a extensão .htm ou .html, não fará diferença.
+
+-- Passo 4: mostrar a página HTML no navegador -- 
+
+Abra o arquivo salvo no navegador que preferir, dando um duplo clique no arquivo; ou com o botão
+direito do mouse, e selecione a opção “abrir com”.
