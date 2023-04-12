@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+header > h2 {
+	background-color: red;
+}
+
+div {
+	border: 1px solid black;
+   	margin-bottom: 10px;
+}
+
+div > div {
+	border: none;
+    border-top: 1px solid black;
+}
+
+div > h2 {
+	background-color: blue;
+}
+
+div > p {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>Child Selector</h2>
+</header>
+
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+<div>
+  <h2>Div 1</h2>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  
+  <div>
+  	<h2>Div 2 (inside div 1)</h2>
+  	<p>Paragraph 4 in the div.</p>
+  </div>
+</div>
+
+<div>
+	<h2>Div 3</h2>
+	<p>Paragraph 5 in a div.</p>
+</div>
+
+<p>Paragraph 6. Not in a div.</p>
+
+</body>
+</html>
+
+
