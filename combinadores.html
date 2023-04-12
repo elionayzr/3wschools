@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Combinadores</title>
+    <style>
+      h2 {
+        background-color: red;  
+      }
+
+      div h2 {
+        background-color: blue;
+      }
+      div p {
+        background-color: yellow;
+      }  
+    </style>
+  </head>
+  <body>
+    <h2>Seletor descendente</h2>
+    <p>O seletor descendente seleciona todos os elementos que descendem de um específico</p>
+    
+    <div>
+      <h2>Div 1</h2>
+      <p>Parágrafo 1 na div</p>
+      <p>Parágrafo 2 na div</p>
+      <section><p>Parágrafo 3 na div</p></section>
+    </div>
+    
+    <p>Parágrafo 4 fora de div</p>
+    <p>Parágrafo 5 fora de div div</p>
+    
+    <div>
+      <h2>Div 2</h2>
+      <p>Parágrafo 6 na div</p>
+      <div>
+        <p>Parágrafo 7 na div</p>
+      </div>
+    </div>
+    
+  </body>
+  
+</html>
